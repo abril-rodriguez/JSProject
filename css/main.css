@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body {
+    background-color: #A9FF7E;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+}
+
+#label1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#elem1 {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: black;
+    align-content: center;
+    background: #B3FEB3;
+}
+
+.h2 {
+    padding-top: 30px;
+}
+
+#elem2 {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: black;
+    background: #B3FEB3;
+}
+
+#elem1-1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#elem1-2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#mainlabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto, auto;
+    grid-template-rows: auto, auto;
+    grid-template-areas: "elem1 elem2";
+    grid-column-gap: 20px;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+#label2 {
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px;
+}
+
+button {
+    background-color: #aafa85;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #14926b
+}
+
+#label2 {
+    background-color: #aafa85;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#label2:hover {
+    background-color: #aae6d3;
+    border-color: black;
+}
+
+#image {
+    text-align: center;
+    width: 300px;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 0px 0px 40px 500px;
+}
+
+#resultado {
+    display: flex;
+}
+
+tr {
+    font-size: 16px;
+}
+
+tbody {
+    font-size: 14px;
+}
+
+#boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
